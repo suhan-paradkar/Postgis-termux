@@ -5,6 +5,7 @@ Copy this script and run👍👍
 
 
 
+```
 pkg install build-essential
 pkg install wget curl libiconv postgresql libxml2 libsqlite readline libiconv postgresql libxml2 libsqlite proj libgeos json-c libprotobuf-c gdal
 wget https://download.osgeo.org/postgis/source/postgis-3.1.0.tar.gz
@@ -18,6 +19,6 @@ initdb $PREFIX/var/lib/postgresql
 pg_ctl -D $PREFIX/var/lib/postgresql start
 psql -l
 createdb gis
-
+```
 
 Thanks for @seabre to come up with it👍
