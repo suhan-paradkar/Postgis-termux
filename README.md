@@ -7,7 +7,7 @@ Copy this script and run👍👍
 
 ```
 pkg install build-essential
-pkg install wget curl libiconv postgresql libxml2 libsqlite readline libiconv postgresql libxml2 libsqlite proj libgeos json-c libprotobuf-c gdal
+pkg install wget curl libiconv postgresql libxml2 libsqlite readline libiconv proj libgeos json-c libprotobuf-c gdal
 wget https://download.osgeo.org/postgis/source/postgis-3.1.0.tar.gz
 tar xfz postgis-3.1.0.tar.gz
 cd postgis-3.1.0
