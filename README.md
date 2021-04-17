@@ -20,5 +20,10 @@ pg_ctl -D $PREFIX/var/lib/postgresql start
 psql -l
 createdb gis
 ```
+Now you can also install it by 
+```
+wget https://github.com/suhan-paradkar/Postgis-termux/releases/download/v3.1.0/postgis-plugin_3.1.0.0_all.deb
+dpkg -i postgis-plugin_3.1.0.0_all.deb
+```
 
 Thanks for @seabre to come up with it👍
